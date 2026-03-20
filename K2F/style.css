@@ -1055,3 +1055,88 @@ color:#ff6b6b;
 font-size:13px;
 color:#666;
 }
+/* SCHOOL TIMING SECTION */
+
+.school-timing{
+padding:60px 10%;
+background:linear-gradient(135deg,#ff9a9e,#fad0c4);
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+/* container */
+
+.timing-container{
+width:100%;
+display:flex;
+justify-content:center;
+}
+
+/* card */
+
+.timing-card{
+background:white;
+padding:30px 50px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 15px 40px rgba(0,0,0,0.15);
+max-width:400px;
+width:100%;
+transition:0.3s;
+}
+
+/* hover */
+
+.timing-card:hover{
+transform:translateY(-5px);
+}
+
+/* icon */
+
+.timing-icon{
+width:70px;
+height:70px;
+background:#ff6b6b;
+color:white;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:28px;
+margin:0 auto 15px;
+}
+
+/* heading */
+
+.timing-card h2{
+font-family:'Fredoka',sans-serif;
+margin-bottom:10px;
+}
+
+/* timing text */
+
+.timing-hours{
+font-size:22px;
+font-weight:600;
+color:#ff6b6b;
+margin-bottom:8px;
+}
+
+/* note */
+
+.timing-note{
+font-size:14px;
+color:#666;
+}
+@media(max-width:600px){
+
+.timing-card{
+padding:25px 20px;
+}
+
+.timing-hours{
+font-size:20px;
+}
+
+}
